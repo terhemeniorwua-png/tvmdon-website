@@ -20,4 +20,15 @@
 body{
     font-family: var(--poppin);
     background-color: #0a0f0f;
+    color: #ebebeb;
+}
+.hide{
+    display: none;
+    position: absolute;
+    backdrop-filter: blur(200px);
+    /* color: #151f1f; */
+}
+.drop:hover .hide{
+    display: block;
+    transition-duration: 0.5s;
 }
