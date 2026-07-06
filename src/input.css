@@ -30,5 +30,12 @@ body{
 }
 .drop:hover .hide{
     display: block;
-    transition-duration: 0.5s;
+    /* transition: 0.7s; */
+}
+.sqrDiv{
+    background-color: #151f1f; 
+}
+.sqrDiv:hover{
+    background-color: rgba(21, 31, 31, .78);
+    transition: 0.3s;
 }
